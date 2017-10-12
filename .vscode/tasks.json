@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/HttpClientExtensions.Abstractions.Test/HttpClientExtensions.Abstractions.Test.csproj"
+                "${workspaceRoot}/test/HttpClientExt.UnitTests/HttpClientExt.UnitTests.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
