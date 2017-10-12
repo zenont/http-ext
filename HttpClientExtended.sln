@@ -5,15 +5,15 @@ VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14935FB3-93E9-40B9-88E3-6F222310EA95}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DB2CEC36-3EC2-4FF2-9D0E-CCB231D92278}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Test", "test\Common.Test\Common.Test.csproj", "{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExt.Common", "src\HttpClientExt.Common\HttpClientExt.Common.csproj", "{965AA899-3C97-494F-84ED-64533584A31E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExt.Interfaces", "src\HttpClientExt.Interfaces\HttpClientExt.Interfaces.csproj", "{99C2C0E4-E570-4FC6-8DB5-5AA5A4DB7A72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExt.Abstractions", "src\HttpClientExt.Abstractions\HttpClientExt.Abstractions.csproj", "{9EBC1F21-4519-437B-8955-C6C585143802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{273155C2-A580-4F76-AF08-60C4D25AD9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExt.UnitTests", "test\HttpClientExt.UnitTests\HttpClientExt.UnitTests.csproj", "{CBD2297C-77C0-4A8C-976D-5E700A13A953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Debug|x64.Build.0 = Debug|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Debug|x86.Build.0 = Debug|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Release|x64.ActiveCfg = Release|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Release|x64.Build.0 = Release|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Release|x86.ActiveCfg = Release|Any CPU
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9}.Release|x86.Build.0 = Release|Any CPU
 		{965AA899-3C97-494F-84ED-64533584A31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{965AA899-3C97-494F-84ED-64533584A31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{965AA899-3C97-494F-84ED-64533584A31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -73,6 +61,18 @@ Global
 		{9EBC1F21-4519-437B-8955-C6C585143802}.Release|x64.Build.0 = Release|Any CPU
 		{9EBC1F21-4519-437B-8955-C6C585143802}.Release|x86.ActiveCfg = Release|Any CPU
 		{9EBC1F21-4519-437B-8955-C6C585143802}.Release|x86.Build.0 = Release|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Debug|x64.Build.0 = Debug|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Debug|x86.Build.0 = Debug|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Release|x64.ActiveCfg = Release|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Release|x64.Build.0 = Release|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Release|x86.ActiveCfg = Release|Any CPU
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,7 +81,7 @@ Global
 		{965AA899-3C97-494F-84ED-64533584A31E} = {14935FB3-93E9-40B9-88E3-6F222310EA95}
 		{99C2C0E4-E570-4FC6-8DB5-5AA5A4DB7A72} = {14935FB3-93E9-40B9-88E3-6F222310EA95}
 		{9EBC1F21-4519-437B-8955-C6C585143802} = {14935FB3-93E9-40B9-88E3-6F222310EA95}
-		{D33AEF90-EFC3-43F5-BDD4-9387968B9CD9} = {DB2CEC36-3EC2-4FF2-9D0E-CCB231D92278}
+		{CBD2297C-77C0-4A8C-976D-5E700A13A953} = {273155C2-A580-4F76-AF08-60C4D25AD9A3}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
