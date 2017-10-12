@@ -1,0 +1,19 @@
+﻿{
+  "version": "1.0.0",
+
+  "dependencies": {
+    "HttpClientExtended.Common": "1.0.0",
+    "NETStandard.Library": "1.6.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": [
+        "dnxcore50",
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    },
+    "net462": {}
+  }
+}
