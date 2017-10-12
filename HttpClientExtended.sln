@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExtended.Interfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExtensions.Abstractions.Test", "HttpClientExtensions.Abstractions.Test\HttpClientExtensions.Abstractions.Test.csproj", "{7D2939AB-394E-4DC1-8B84-F613B41BC7E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DB2CEC36-3EC2-4FF2-9D0E-CCB231D92278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,8 @@ Global
 		{81D803F6-342E-4003-B3E4-FCF80CF4B31D} = {14935FB3-93E9-40B9-88E3-6F222310EA95}
 		{0CF017E5-6FCC-43C6-8A61-087F38A2D7B9} = {14935FB3-93E9-40B9-88E3-6F222310EA95}
 		{63F08CFD-008A-4F4B-B9C3-E0F3656C6502} = {14935FB3-93E9-40B9-88E3-6F222310EA95}
+		{8FC26251-F40F-4EF5-BE5D-255A70E97110} = {DB2CEC36-3EC2-4FF2-9D0E-CCB231D92278}
+		{7D2939AB-394E-4DC1-8B84-F613B41BC7E0} = {DB2CEC36-3EC2-4FF2-9D0E-CCB231D92278}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
