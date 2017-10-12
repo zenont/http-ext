@@ -13,12 +13,12 @@ namespace HttpClientExt.Abstractions.Extensions
 
         public static IHttpClientQueryBuilder<T> PostAsJson<T, TContent>(this IHttpClientVerbBuilder<T> builder, string requestUri, TContent content) where T : HttpClient
         {
-            return builder.Post(requestUri, new JsonContent<TContent>(content));
+            return builder.Post(requestUri, new JsonContent(content));
         }
 
         public static IHttpClientQueryBuilder<T> PutAsJson<T, TContent>(this IHttpClientVerbBuilder<T> builder, string requestUri, TContent content) where T : HttpClient
         {
-            return builder.Put(requestUri, new JsonContent<TContent>(content));
+            return builder.Put(requestUri, new JsonContent(content));
         }
 
     }

@@ -22,7 +22,7 @@ namespace HttpClientExt.Abstractions.Extensions
         public static async Task<T> AsJsonAsync<T>(this IHttpClientQueryBuilder builder, CancellationToken cancellationToken = default(CancellationToken))
         {
             HttpResponseMessage response = await builder.SendAsync(cancellationToken);
-            return await response.Content.AsJsonAsync<T>(cancellationToken);
+            return await response.Content.FromJsonAsync<T>(cancellationToken);
         }
 
         public static async Task<Stream> AsStreamAsync(this IHttpClientQueryBuilder builder, CancellationToken cancellationToken = default(CancellationToken))
