@@ -1,5 +1,5 @@
-﻿using HttpClientExtended.Common;
-using HttpClientExtended.Interfaces;
+﻿using HttpClientExt.Common;
+using HttpClientExt.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HttpClientExtended.Abstractions
+namespace HttpClientExt.Abstractions
 {
     public class HttpClientQueryBuilder<T> : IHttpClientQueryBuilder<T> where T : HttpClient
     {

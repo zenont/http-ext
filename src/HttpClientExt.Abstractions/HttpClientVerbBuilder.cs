@@ -1,7 +1,7 @@
-﻿using HttpClientExtended.Interfaces;
+﻿using HttpClientExt.Interfaces;
 using System.Net.Http;
 
-namespace HttpClientExtended.Abstractions
+namespace HttpClientExt.Abstractions
 {
     public class HttpClientVerbBuilder<T> : IHttpClientVerbBuilder<T> where T : HttpClient
     {

@@ -1,8 +1,8 @@
-﻿using HttpClientExtended.Interfaces;
-using System.Net.Http;
-using HttpClientExtended.Common;
+﻿using System.Net.Http;
+using HttpClientExt.Interfaces;
+using HttpClientExt.Common;
 
-namespace HttpClientExtended.Abstractions.Extensions
+namespace HttpClientExt.Abstractions.Extensions
 {
     public static class HttpClientVerbBuilderExtensions
     {

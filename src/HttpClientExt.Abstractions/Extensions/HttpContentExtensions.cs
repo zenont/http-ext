@@ -1,10 +1,9 @@
-﻿using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace HttpClientExtended.Abstractions.Extensions
+namespace HttpClientExt.Abstractions.Extensions
 {
     public static class HttpContentExtensions
     {
