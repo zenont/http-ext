@@ -1,0 +1,9 @@
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/bin/Debug/netstandard2.0/HttpClientExt.Common.deps.json
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/bin/Debug/netstandard2.0/HttpClientExt.Common.dll
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/bin/Debug/netstandard2.0/HttpClientExt.Common.pdb
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/obj/Debug/netstandard2.0/HttpClientExt.Common.csproj.CoreCompileInputs.cache
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/obj/Debug/netstandard2.0/HttpClientExt.Common.AssemblyInfoInputs.cache
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/obj/Debug/netstandard2.0/HttpClientExt.Common.AssemblyInfo.cs
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/obj/Debug/netstandard2.0/HttpClientExt.Common.dll
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/obj/Debug/netstandard2.0/HttpClientExt.Common.pdb
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Common/obj/Debug/netstandard2.0/HttpClientExt.Common.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/bin/Debug/netstandard2.0/HttpClientExt.Interfaces.deps.json
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/bin/Debug/netstandard2.0/HttpClientExt.Interfaces.dll
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/bin/Debug/netstandard2.0/HttpClientExt.Interfaces.pdb
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/bin/Debug/netstandard2.0/HttpClientExt.Common.dll
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/bin/Debug/netstandard2.0/HttpClientExt.Common.pdb
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/obj/Debug/netstandard2.0/HttpClientExt.Interfaces.csproj.CoreCompileInputs.cache
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/obj/Debug/netstandard2.0/HttpClientExt.Interfaces.AssemblyInfoInputs.cache
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/obj/Debug/netstandard2.0/HttpClientExt.Interfaces.AssemblyInfo.cs
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/obj/Debug/netstandard2.0/HttpClientExt.Interfaces.dll
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/obj/Debug/netstandard2.0/HttpClientExt.Interfaces.pdb
+/Users/zenontrujillo/Sources/Repos/http-ext/src/HttpClientExt.Interfaces/obj/Debug/netstandard2.0/HttpClientExt.Interfaces.csprojResolveAssemblyReference.cache
