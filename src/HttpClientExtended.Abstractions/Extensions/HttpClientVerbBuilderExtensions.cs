@@ -1,6 +1,6 @@
 ﻿using HttpClientExtended.Interfaces;
 using System.Net.Http;
-using System.Net.Http.Formatting;
+using HttpClientExtended.Common;
 
 namespace HttpClientExtended.Abstractions.Extensions
 {
@@ -13,22 +13,13 @@ namespace HttpClientExtended.Abstractions.Extensions
 
         public static IHttpClientQueryBuilder<T> PostAsJson<T, TContent>(this IHttpClientVerbBuilder<T> builder, string requestUri, TContent content) where T : HttpClient
         {
-            return builder.Post(requestUri, new ObjectContent(typeof(TContent), content, new JsonMediaTypeFormatter()));
-        }
-
-        public static IHttpClientQueryBuilder<T> PostAsXml<T, TContent>(this IHttpClientVerbBuilder<T> builder, string requestUri, TContent content) where T : HttpClient
-        {
-            return builder.Post(requestUri, new ObjectContent(typeof(TContent), content, new XmlMediaTypeFormatter()));
+            return builder.Post(requestUri, new JsonContent<TContent>(content));
         }
 
         public static IHttpClientQueryBuilder<T> PutAsJson<T, TContent>(this IHttpClientVerbBuilder<T> builder, string requestUri, TContent content) where T : HttpClient
         {
-            return builder.Put(requestUri, new ObjectContent(typeof(TContent), content, new JsonMediaTypeFormatter()));
+            return builder.Put(requestUri, new JsonContent<TContent>(content));
         }
 
-        public static IHttpClientQueryBuilder<T> PutAsXml<T, TContent>(this IHttpClientVerbBuilder<T> builder, string requestUri, TContent content) where T : HttpClient
-        {
-            return builder.Put(requestUri, new ObjectContent(typeof(TContent), content, new XmlMediaTypeFormatter()));
-        }
     }
 }

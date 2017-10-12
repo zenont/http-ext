@@ -340,7 +340,7 @@ namespace HttpClientExtensions.Abstractions.Test
                 .Post(requestUri, new ObjectContent<FakePayload>(payload, new JsonMediaTypeFormatter()))
                 .Query("id", payload.Id)
                 .Query("note", payload.Note)
-                .AsAsync<FakePayload>(cancellationToken);
+                .AsJsonAsync<FakePayload>(cancellationToken);
 
             // assert
             Assert.NotNull(result);
@@ -426,7 +426,7 @@ namespace HttpClientExtensions.Abstractions.Test
                 .Put(requestUri, new ObjectContent<FakePayload>(payload, new JsonMediaTypeFormatter()))
                 .Query("id", payload.Id)
                 .Query("note", payload.Note)
-                .AsAsync<FakePayload>(cancellationToken);
+                .AsJsonAsync<FakePayload>(cancellationToken);
 
             // assert
             Assert.NotNull(result);

@@ -19,10 +19,10 @@ namespace HttpClientExtended.Abstractions.Extensions
             return builder;
         }
 
-        public static async Task<T> AsAsync<T>(this IHttpClientQueryBuilder builder, CancellationToken cancellationToken = default(CancellationToken))
+        public static async Task<T> AsJsonAsync<T>(this IHttpClientQueryBuilder builder, CancellationToken cancellationToken = default(CancellationToken))
         {
             HttpResponseMessage response = await builder.SendAsync(cancellationToken);
-            return await response.Content.ReadAsAsync<T>(cancellationToken);
+            return await response.Content.AsJsonAsync<T>(cancellationToken);
         }
 
         public static async Task<Stream> AsStreamAsync(this IHttpClientQueryBuilder builder, CancellationToken cancellationToken = default(CancellationToken))
